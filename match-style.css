@@ -6,8 +6,6 @@ h6{
 /*------------ Header-style------------------
 --------------------------------------------- */
 .top-banner{
-    /* width: 1321px; */
-    /* height: 646px; */
     background-color:  #161616;
     border-radius: 30px;
     display: flex;
@@ -19,9 +17,8 @@ h6{
     justify-content: space-between;
 }
 .top-banner .player-img img{
-    
     width: 581px;
-    /* height: 100%; */
+   
 }
 
 .half-width{
@@ -57,66 +54,22 @@ h6{
     transform: scale(1,2);
 }
 
-/* .player-img  img{
-    width: 581px;
-    height: 613px;
-    margin-right: 80px;
-} */
+
 /*------------------ Transfer news and blog---------------
 ------------------------------------------------------ */
-/* .container{
-    display: flex;
-    flex-direction: row; 
-}  
-.menu{
-    width: 312px;  
-    height: 282px;
-    background: #161616;
-    border-radius: 10px;
-    margin-left: 03px;
-}
-.menu a{
-    text-decoration: none;
-    text-align: center;
-}
-.blog-btn{
-    display: block;
-    width: 252px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    margin: 30px;
-    font-family: 'Poppins';
-    color: #161616;
-    font-weight: 500;
-    font-size: 20px;
-    padding: 10px 0;
-}
-.blog-btn-red{
-    display: block;
-    width: 252px;
-    background: #DD0000;
-    border-radius: 10px;
-    margin: 30px;
-    color: #FFFFFF;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 20px;
-    padding: 10px 0;
-} */
+
 .container{
     display: flex;
-     /*align-items: center; */
     flex-direction: row; 
     justify-content: center;
     gap: 20px  ;
 }  
 
 .container .menu{
-    width: 312px;  /**/
+    width: 312px;  
     height: 282px;
     background: #161616;
     border-radius: 10px;
-    /* margin-left: 03px; */
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -130,14 +83,10 @@ h6{
     border-radius: 10px;
     
 }
-.menu li a{
-    
+.menu li a{ 
     display: block;
     text-decoration: none;
     text-align: center;
-    /* padding-top: 10px; */
-    /* height: 64px; */
-    
     font-weight: 600;
     font-size: 20px;
     padding: 10px 0;
@@ -147,15 +96,14 @@ h6{
     font-size: 20px;
     font-weight: 500;
     background-color: royalblue;
-    color: black;
+    color: white;
     transition: 0.4s;
+    border-radius: 10px;
 }
 .blog-btn{
     width: 252px;
-    /* height: 64px; */
     background: #FFFFFF;
     border-radius: 10px;
-    /* margin: 30px; */
     font-family: 'Poppins';
     color: #161616;
     font-weight: 500;
@@ -163,17 +111,7 @@ h6{
     padding: 10px 0;
 }
 .menu li.selected{
-    /* display: block;
-    width: 252px; */
-    /* height: 64px; */
     background-color: #DD0000;
-    /* border-radius: 10px; */
-    /* margin: 30px; */
-    /* color: #FFFFFF; */
-    /* font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 20px;
-    padding: 10px 0; */
 }
 .schedules{
     margin-left: 24px;
@@ -183,7 +121,6 @@ h6{
     grid-template-columns: repeat(3,1fr);
     grid-row-gap:30px;
     grid-column-gap:20px ;
-     
 }
 .schedule{
     align-items: center;
@@ -195,10 +132,6 @@ h6{
     height: 240px;
     width: 312px;
 }
-/* match.html styles
-.container .tranfers .transfer .france-germany{
-    display: inline;
-} */
 .france-germany{
     display: flex;
     justify-content: space-evenly;
@@ -207,18 +140,8 @@ h6{
     margin-left: 25px;
     margin-right: 25px;
 }
-
-/* .transfer button{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #161616;
-} */
-
 .match-info{
     color:rgba(22, 22, 22, 0.7);
-    /* text-align: center; */
 }
 .fa-clock, .fa-comment{
      margin: 15px;
@@ -258,14 +181,11 @@ footer .footer-nav ul li{
     list-style: none;
     display: inline-block;
     padding: 10px;
-    /* margin-left: 80px;
-    margin-bottom: 130px; */
 }
 footer .footer-nav ul li a{
     text-decoration: none;
     color: #B9B9B9;
 }
-/*Social media account styles*/
 
 .social-media{
     display: flex;
@@ -290,8 +210,6 @@ footer .social-media ul li a{
                 /*Tablet devices*/
 @media only screen and (min-width: 688px) and (max-width: 992px){
   .top-banner{
-      /* width: 100%;  
-     height: 100%;  */
      display: flex;
      flex-direction: row; 
      justify-content: center; 
@@ -363,8 +281,6 @@ footer .social-media ul li a{
          
       }
   .schedules{
-      /* 
-      gap */
       width: 100%;
       margin-bottom: 80px;
       display: grid;
