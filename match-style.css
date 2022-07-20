@@ -190,15 +190,16 @@ footer .footer-nav ul li a{
 .social-media{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-weight: 500;
     font-size: 40px;
+    
 }
 footer .social-media ul li{
     list-style: none;
     display: inline-block;
     padding: 10px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-bottom: 130px;
 }
 footer .social-media ul li a{
