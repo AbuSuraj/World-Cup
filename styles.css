@@ -350,13 +350,23 @@ footer{
                 /* Mobile Device  */
 @media only screen and (max-width: 687px){
  .top-banner{
-   width: 100%;  
-  height: 100%; 
+   /* width: 100%;  
+  height: 100%;  */
   display: flex;
    flex-direction: column; 
    justify-content: center; 
     align-items: center;
    gap: 20px; 
+
+   /* margin-bottom: 100px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 40px; */
+   margin: 20px 30px;
+   
+    }
+    .section-title{
+        margin-left: 20px;
     }
  .top-banner .player-img img{
     width: 233px;
